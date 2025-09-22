@@ -19,6 +19,9 @@ void main() {
     }
   }
 
+  // Menampilkan hasil
+  print("==================================");
   print("Bilangan yang dimasukkan: $number");
-  print("Faktorial: $factorial");
+  print("Hasil faktorial: $factorial");
+  print("==================================");
 }
