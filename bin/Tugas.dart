@@ -10,5 +10,11 @@ void main() {
     return;
   }
 
-  print("Input valid: $input");
+  // Validasi input bilangan bulat positif
+  if (int.tryParse(input) == null || int.parse(input) < 0) {
+    print("Input tidak valid. Harap masukkan bilangan bulat positif.");
+    return;
+  }
+
+  print("Bilangan yang dimasukkan: $input");
 }
