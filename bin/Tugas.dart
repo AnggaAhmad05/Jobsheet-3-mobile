@@ -13,8 +13,10 @@ void main() {
 
   // Perhitungan faktorial
   int factorial = 1;
-  for (int i = 1; i <= number; i++) {
-    factorial *= i;
+  if (number > 0) {
+    for (int i = 1; i <= number; i++) {
+      factorial *= i;
+    }
   }
 
   print("Bilangan yang dimasukkan: $number");
